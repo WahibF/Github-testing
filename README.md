@@ -26,20 +26,14 @@ apt-get install git
 
 ## Git/Github - Homework (séance 1) :
 
-<li><a>Créez un projet simple Node.js/Express.js sur votre machine locale.</a></li>
-<li><a href="#roadmap">Roadmap</a></li>
-<li><a href="#contributing">Contributing</a></li>
-<li><a href="#license">License</a></li>
-<li><a href="#contact">Contact</a></li>
-<li><a href="#acknowledgments">Acknowledgments</a></li>
-1- Créez un projet simple Node.js/Express.js sur votre machine locale.
-2- Initialisez un dépôt Git dans le dossier du projet (git init).
-3- Faites un premier commit avec un fichier README.md décrivant votre projet (git add README.md et git commit -m "Initial commit with README").
-4- Créez un dépôt sur GitHub et poussez votre projet local vers ce dépôt (git remote add origin <URL-du-dépôt> et git push -u origin master).
-5- Modifiez un fichier dans votre projet (par exemple, ajoutez une nouvelle route dans votre application Express).
-6- Faites un commit et poussez ces modifications vers GitHub.
-7- Créez une nouvelle branche pour ajouter une fonctionnalité (par exemple, git checkout -b new-feature), faites un commit de cette nouvelle fonctionnalité, et poussez cette branche vers GitHub.
-8- Depuis l'interface de GitHub, créez une Pull Request pour fusionner votre nouvelle fonctionnalité dans la branche principale.
+1. Créez un projet simple Node.js/Express.js sur votre machine locale.
+2. Initialisez un dépôt Git dans le dossier du projet (git init).
+3. Faites un premier commit avec un fichier README.md décrivant votre projet (git add README.md et git commit -m "Initial commit with README").
+4. Créez un dépôt sur GitHub et poussez votre projet local vers ce dépôt (git remote add origin <URL-du-dépôt> et git push -u origin master).
+5. Modifiez un fichier dans votre projet (par exemple, ajoutez une nouvelle route dans votre application Express).
+6. Faites un commit et poussez ces modifications vers GitHub.
+7. Créez une nouvelle branche pour ajouter une fonctionnalité (par exemple, git checkout -b new-feature), faites un commit de cette nouvelle fonctionnalité, et poussez cette branche vers GitHub.
+8. Depuis l'interface de GitHub, créez une Pull Request pour fusionner votre nouvelle fonctionnalité dans la branche principale.
 
 
 
