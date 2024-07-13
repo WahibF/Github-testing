@@ -1,15 +1,18 @@
 # Formation DevOps - le bon devloppeur -
 
-_Cours Devops - instructeur Wassim Abidi_
-_Seance nr 1 - 12.07.2024_
-_Home work: Github Simple Node.js/Express.js Project_
+Cours Devops - instructeur Wassim Abidi.
+Seance nr 1 - 12.07.2024.
+Home work: Github Simple Node.js/Express.js Project.
 
 ## Prerequisite 
+<li><a>Windows or Mac or Linux </a></li>
+<li><a>Ms-Word</a></li>
+<li><a>Git-scm</a></li>
+<li><a>Internet access</a></li>
 
-Windows or Mac or Linux 
-Ms-Word
-Git-scm
-Internet access
+
+
+
 
 ## Installation
 
