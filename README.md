@@ -1,8 +1,8 @@
 # Formation DevOps - le bon devloppeur -
 
-Cours Devops - instructeur Wassim Abidi[]()
-Seance nr 1 - 12.07.2024[]()
-Home work: Github Simple Node.js/Express.js Project[]()
+Cours Devops - instructeur Wassim Abidi.
+Seance nr 1 - 12.07.2024.
+Home work: Github Simple Node.js/Express.js Project.
 
 ## Prerequisite 
 <li><a>Windows or Mac or Linux </a></li>
@@ -10,17 +10,13 @@ Home work: Github Simple Node.js/Express.js Project[]()
 <li><a>Git-scm</a></li>
 <li><a>Internet access</a></li>
 
-
-
-
-
 ## Installation
 
-For Windows:[]()
+For Windows:
 Link to Download the official .exe file locally and excute it.
 [Git](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
 
-For Linux:[]()
+For Linux:
 Command to excute on your shell.
 
 ```bash
@@ -37,8 +33,6 @@ apt-get install git
 6. Faites un commit et poussez ces modifications vers GitHub.
 7. Créez une nouvelle branche pour ajouter une fonctionnalité (par exemple, git checkout -b new-feature), faites un commit de cette nouvelle fonctionnalité, et poussez cette branche vers GitHub.
 8. Depuis l'interface de GitHub, créez une Pull Request pour fusionner votre nouvelle fonctionnalité dans la branche principale.
-
-
 
 ## Contributing
 
