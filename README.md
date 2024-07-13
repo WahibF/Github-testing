@@ -26,6 +26,12 @@ apt-get install git
 
 ## Git/Github - Homework (séance 1) :
 
+<li><a>Créez un projet simple Node.js/Express.js sur votre machine locale.</a></li>
+<li><a href="#roadmap">Roadmap</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#acknowledgments">Acknowledgments</a></li>
 1- Créez un projet simple Node.js/Express.js sur votre machine locale.
 2- Initialisez un dépôt Git dans le dossier du projet (git init).
 3- Faites un premier commit avec un fichier README.md décrivant votre projet (git add README.md et git commit -m "Initial commit with README").
