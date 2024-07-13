@@ -14,3 +14,8 @@ app.get('/new-route', (req, res) => {
     res.send('This is a new route!');
   });
   
+
+  app.get('/feature', (req, res) => {
+    res.send('This is a new feature!');
+  });
+  
