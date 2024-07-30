@@ -1,4 +1,4 @@
-name: Build and Start Node.js Server
+name: Build and Test Node.js Server
 
 on:
   push:
@@ -19,16 +19,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'  # Specify the Node.js version you need
-
-      - name: List repository contents
-        run: ls -al  # List the contents of the repository for debugging
+          node-version: '18'
 
       - name: Install dependencies
-        run: npm install  # This step installs all dependencies listed in package.json
+        run: npm install --save-dev supertest
 
-      - name: Build project
-        run: npm run build  # This runs the build script defined in package.json, if any
 
-      - name: Start server
-        run: npm start  # This starts the server using the start script defined in package.json
+      - name: Run tests
+        run: npm test  # Run your tests here
