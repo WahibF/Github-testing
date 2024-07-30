@@ -6,16 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
-
-app.get('/new-route', (req, res) => {
-    res.send('This is a new route!');
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`);
   });
-  
+}
 
-  app.get('/feature', (req, res) => {
-    res.send('This is a new feature!');
-  });
-  
+module.exports = app;  // Export the app for testing
