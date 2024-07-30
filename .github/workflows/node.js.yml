@@ -21,8 +21,8 @@ jobs:
         with:
           node-version: '18'  # Specify the Node.js version you need
 
-      - name: Install dependencies
-        run: npm install
+      - name: list repos
+        run: ls -al
 
       - name: Build project
         run: npm run build  # Adjust if you have a build step, otherwise omit
