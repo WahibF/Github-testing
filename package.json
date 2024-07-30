@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'No build step needed'"
+    "test": "jest"  // Assuming you use Jest for testing
   },
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"  // Add Jest as a dev dependency
   }
 }
