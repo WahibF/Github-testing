@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"  // Assuming you use Jest for testing
+    "test": "jest" 
   },
   "author": "Your Name",
   "license": "ISC",
@@ -13,6 +13,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^29.0.0"  // Add Jest as a dev dependency
+    "jest": "^29.0.0"  
   }
 }
