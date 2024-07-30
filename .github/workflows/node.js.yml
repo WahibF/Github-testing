@@ -21,11 +21,14 @@ jobs:
         with:
           node-version: '18'  # Specify the Node.js version you need
 
-      - name: list repos
-        run: ls -al
+      - name: List repository contents
+        run: ls -al  # List the contents of the repository for debugging
+
+      - name: Install dependencies
+        run: npm install  # This step installs all dependencies listed in package.json
 
       - name: Build project
-        run: npm run build  # Adjust if you have a build step, otherwise omit
+        run: npm run build  # This runs the build script defined in package.json, if any
 
       - name: Start server
-        run: node index.js
+        run: npm start  # This starts the server using the start script defined in package.json
